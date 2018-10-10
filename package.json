@@ -1,5 +1,5 @@
 {
-  "name": "boiler-plate",
+  "name": "project-name",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,11 +7,19 @@
     "build": "webpack --mode development",
     "start": "webpack-dev-server --open",
     "lint": "eslint src/*.js",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.3",
